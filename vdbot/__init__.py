@@ -38,7 +38,7 @@ from .cogs import *
 from .event_listeners import *
 
 @bot.on_ready
-async def onr(ctx):
+async def on_ready(ctx):
     activity = discord.Activity(name="How To: Valheim Please", type=discord.ActivityType.watching)
     await bot.change_presence(status=discord.Status.online, activity=activity)
 

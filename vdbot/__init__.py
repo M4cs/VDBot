@@ -40,7 +40,8 @@ from .event_listeners import *
 async def on_ready():
     activity = discord.Activity(name="How To: Valheim Please", type=discord.ActivityType.watching)
     await bot.change_presence(status=discord.Status.online, activity=activity)
-@bot.add_listener(on_ready)
+
+bot.add_listener(on_ready)
 
 @bot.before_invoke
 async def command_logger(ctx):

@@ -1,7 +1,8 @@
+import discord
 from discord.ext.commands import Bot
 from vdbot.config import config
 from PyDictionary import PyDictionary
-from discord import Embed
+from discord import Embed, activity
 
 from datetime import datetime
 
@@ -36,6 +37,11 @@ from .cogs import *
 
 from .event_listeners import *
 
+@bot.on_ready():
+async def on_ready():
+    activity = discord.Activity(name="How To: Valheim Please", type=discord.ActivityType.watching)
+    await bot.change_presence(status=discord.Status.online, activity=activity)
+    
 @bot.before_invoke
 async def command_logger(ctx):
     if ctx.command.name == "help":

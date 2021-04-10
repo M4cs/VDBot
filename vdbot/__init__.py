@@ -37,10 +37,10 @@ from .cogs import *
 
 from .event_listeners import *
 
-@bot.on_ready
-async def onr(ctx):
+async def on_ready():
     activity = discord.Activity(name="How To: Valheim Please", type=discord.ActivityType.watching)
     await bot.change_presence(status=discord.Status.online, activity=activity)
+@bot.add_listener(on_ready)
 
 @bot.before_invoke
 async def command_logger(ctx):

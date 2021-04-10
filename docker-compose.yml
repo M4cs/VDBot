@@ -1,0 +1,8 @@
+services:
+    vdbot:
+        build: .
+        environment:
+            - NEXUS_TOKEN=${NEXUS_TOKEN}
+            - BOT_TOKEN=${BOT_TOKEN}
+        volumes:
+            - "./:/usr/app"

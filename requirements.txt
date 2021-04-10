@@ -1,0 +1,7 @@
+omegaconf==2.0.6
+requests==2.25.1
+discord.py==1.7.1
+discord==1.0.1
+PyDictionary==2.0.1
+howdoi==2.0.14
+rich==10.1.0

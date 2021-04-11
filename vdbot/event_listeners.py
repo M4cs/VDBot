@@ -19,6 +19,8 @@ async def on_command_error(ctx, error):
     await ctx.message.delete()
     if isinstance(error, CommandNotFound):
         console.print(Panel('[bold red]Command Unknown![/bold red]'), justify='center')
+    else:
+        console.print(Panel('[bold red]' + error + '[/bold red]'))
 
 @bot.event
 async def on_error(ctx, error):

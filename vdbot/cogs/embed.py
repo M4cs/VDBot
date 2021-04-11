@@ -13,10 +13,10 @@ async def on_embed(ctx, title, *, text):
 
 @bot.command(aliases=['template'], help='A template for Valheim Plugins')
 async def on_template(ctx):
-    embed = Embed(title="Valheim Modding Template", description="The following code can be useful for anybody needing a base template for their plugin class.")
+    embed = Embed(title="Valheim Modding Template", description="This code can be useful for anybody needing a base template for their plugin class.")
     async with ctx.message.channel.typing():
         embed.add_field(name="Requirements:", value="- References to HarmonyLib and BepInEx\n- A .NET Class Library Project")
-        embed.add_field(name="Template", value="""
+    await ctx.message.channel.send(content="""
 ```cs
 using BepInEx;
 using HarmonyLib;
@@ -29,13 +29,10 @@ namespace PluginNamespace {
         public const string pluginGUID = "com.yourname.PluginName";
         public const string pluginName = "PluginName";
         public const string pluginVersion = "1.0.0";
-        Harmony harmony;
 
         public void Awake() {
-            harmony = new Harmony(pluginGUID);
+            Harmony harmony = new Harmony(pluginGUID);
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }
-}"""
-        )
-    await ctx.message.send(content="", embed=embed)
+}```""", embed=embed)

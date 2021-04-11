@@ -27,9 +27,10 @@ class Statistics:
         return days, hours, minutes, seconds
 
 def create_bot():
+    intents = discord.Intents().all()
     mods = ModFinder()
     dictionary = PyDictionary()
-    bot = Bot("!")
+    bot = Bot("!", intents=intents)
     console = Console(width=80)
     stats = Statistics()
     return bot, dictionary, console, stats, mods
@@ -64,6 +65,8 @@ async def on_help(ctx):
         embed.add_field(name="!template", value="Get an easy plugin class template to copy from")
         embed.add_field(name="!info", value="Get information about the bot")
     await ctx.reply(embed=embed)
+
+    
 def run_bot():
     try:
         bot.run(config.token, bot=True)

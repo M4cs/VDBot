@@ -20,4 +20,4 @@ async def on_define(ctx, *, text):
             if index != len(result.items()) - 1:
                 embed.add_field(name="\u200B", value="\u200B", inline=True)
             index += 1
-    await ctx.channel.send(content="<@" + str(ctx.message.author.id) + ">", embed=embed)
+    await ctx.reply(content="", embed=embed, mention_author=True)

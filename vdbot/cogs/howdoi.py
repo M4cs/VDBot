@@ -13,6 +13,6 @@ async def on_howdoi(ctx, *, query):
         if len(output) > 2000:
             output = output[0:1997] + "..."
         embed = Embed(title="Query: " + query, description=output, color=0xff0000)
-        await ctx.channel.send(content="", embed=embed)
+        await ctx.reply(content="", embed=embed, mention_author=True)
     else:
-        await ctx.channel.send(content=f"**<@{ctx.message.author.id}> Please use this in a development channel only!**")
+        await ctx.reply(content=f"**Please use this in a development channel only!**", mention_author=True)

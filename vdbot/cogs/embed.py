@@ -16,7 +16,7 @@ async def on_template(ctx):
     embed = Embed(title="Valheim Modding Template", description="This code can be useful for anybody needing a base template for their plugin class.")
     async with ctx.message.channel.typing():
         embed.add_field(name="Requirements:", value="- References to HarmonyLib and BepInEx\n- A .NET Class Library Project")
-    await ctx.message.channel.send(content="""
+    await ctx.reply(content="""
 ```cs
 using BepInEx;
 using HarmonyLib;
@@ -35,4 +35,4 @@ namespace PluginNamespace {
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }
-}```""", embed=embed)
+}```""", embed=embed, mention_author=True)

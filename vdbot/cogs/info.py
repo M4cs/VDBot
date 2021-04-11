@@ -13,6 +13,10 @@ async def on_wiki(ctx):
         embed.add_field(name="BepInEx Plugin Best Practices", value="https://github.com/Valheim-Modding/Wiki/wiki/BepInEx-Plugin-Best-Practices", inline=False)
     await ctx.reply(content="", embed=embed, mention_author=True)
 
+@bot.command(aliases=['invite'])
+async def on_invite_link(ctx):
+    await ctx.channel.send('https://discord.gg/89bBsvK5KC')
+
 @bot.command(aliases=['info', 'yggdrasil'])
 @commands.has_role("Moderator")
 async def on_info(ctx):

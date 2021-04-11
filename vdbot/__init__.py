@@ -41,7 +41,7 @@ from .cogs import *
 from .event_listeners import *
 
 async def on_ready():
-    activity = discord.Activity(name="How To: Mod Valheim Like A Pro", type=discord.ActivityType.watching)
+    activity = discord.Activity(name="Over Yggdrasil | !help", type=discord.ActivityType.watching)
     await bot.change_presence(status=discord.Status.online, activity=activity)
 
 bot.add_listener(on_ready)

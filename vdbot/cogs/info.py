@@ -32,5 +32,5 @@ async def on_info(ctx):
         embed.add_field(name="💻 Commands Loaded", value=str(len(bot.commands)), inline=True)
         embed.add_field(name="📝 Messages Parsed", value=str(stats.msgs_parsed), inline=True)
         embed.add_field(name="🏃‍♂️ Commands Run", value=str(stats.command_count), inline=True)
-        embed.add_field(name="✏ Written By", value="<@830668979130466356>")
+        embed.add_field(name="✏ Written By", value="<@368083908862017537>")
     await ctx.reply(embed=embed)

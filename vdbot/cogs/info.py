@@ -15,7 +15,7 @@ async def on_wiki(ctx):
 
 @bot.command(aliases=['invite'])
 async def on_invite_link(ctx):
-    await ctx.channel.send('https://discord.gg/89bBsvK5KC')
+    await ctx.channel.send('https://discord.gg/MXqWrn532w')
 
 @bot.command(aliases=['info', 'yggdrasil'])
 @commands.has_role("Moderator")

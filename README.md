@@ -2,6 +2,8 @@
 
  A discord bot for helping out in the Valheim Modding Discord
 
+ [Join Here](https://discord.gg/MXqWrn532w)
+
  # Features
 
  - Welcome Messages

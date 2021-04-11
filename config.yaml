@@ -1,2 +1,1 @@
 token: ${env:BOT_TOKEN}
-nexus_token: ${end:NEXUS_TOKEN}

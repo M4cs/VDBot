@@ -1,8 +1,8 @@
 start:
-	@NEXUS_TOKEN=$(NEXUS_TOKEN) BOT_TOKEN=$(BOT_TOKEN) docker-compose up --build -d
+	@BOT_TOKEN=$(BOT_TOKEN) docker-compose up --build -d
 
 start-logs:
-	@NEXUS_TOKEN=$(NEXUS_TOKEN) BOT_TOKEN=$(BOT_TOKEN) docker-compose up --build
+	@BOT_TOKEN=$(BOT_TOKEN) docker-compose up --build
 
 start-python:
-	@NEXUS_TOKEN=$(NEXUS_TOKEN) BOT_TOKEN=$(BOT_TOKEN) python -m vdbot
+	@BOT_TOKEN=$(BOT_TOKEN) python -m vdbot

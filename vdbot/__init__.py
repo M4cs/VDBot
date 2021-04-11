@@ -4,6 +4,7 @@ from discord.ext.commands.help import MinimalHelpCommand
 from vdbot.config import config
 from PyDictionary import PyDictionary
 from discord import Embed, activity
+from vdbot.modfinder import ModFinder
 
 from datetime import datetime
 
@@ -26,13 +27,14 @@ class Statistics:
         return days, hours, minutes, seconds
 
 def create_bot():
+    mods = ModFinder()
     dictionary = PyDictionary()
     bot = Bot("!")
     console = Console(width=80)
     stats = Statistics()
-    return bot, dictionary, console, stats
+    return bot, dictionary, console, stats, mods
 
-bot, dictionary, console, stats = create_bot()
+bot, dictionary, console, stats, mods = create_bot()
 
 from .cogs import *
 

@@ -4,6 +4,7 @@ WORKDIR /usr/app
 
 COPY ./requirements.txt /usr/app/requirements.txt
 
+RUN apt-get update && apt-get install gcc -y
 RUN pip install --upgrade pip setuptools wheel
 RUN pip install -r requirements.txt
 

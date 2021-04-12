@@ -85,7 +85,7 @@ async def on_findfield(ctx, field_name):
             embed = Embed(title="**Field:** " + class_name + "." + field_name, description=f"**Field Type:** {our_field['type']}\n**Is Private:** {'True' if our_field['is_private'] else 'False'}")
             await ctx.reply(embed=embed)
     else:
-        await ctx.reply("Could not find field. Possible meanings " + str(results))
+        await ctx.reply("Could not find field. Possible meanings " + ', '.join(x['name'] + '.' + field_name.capitalize() for x in results))
 
 
 
@@ -95,7 +95,7 @@ async def on_findmethod(ctx, method_name):
     if found:
         if results.count() > 1:
             embed = Embed(title="Ambiguous Match Found!", description="This Method Was Found In Multiple Classes!")
-            embed.add_field(name="Matches:", value=', '.join([x['name'] + "." + method_name for x in results]))
+            embed.add_field(name="Matches:", value=', '.join(x['name'] + '.' + method_name.capitalize() for x in results)]))
             await ctx.reply(embed=embed)
         else:
             if '.' in method_name:
@@ -114,7 +114,7 @@ async def on_findmethod(ctx, method_name):
             embed = Embed(title="**Method:** " + class_name + "." + method_name, description=f"**Return Type:** {our_method['type']}\n**Is Private:** {'True' if our_method['is_private'] else 'False'}\n**Parameters:** {', '.join(params) if len(params) > 0 else 'No Params'}")
             await ctx.reply(embed=embed)
     else:
-        await ctx.reply("Could not find method. Possible meanings " + str(results))
+        await ctx.reply("Could not find method. Possible meanings " + ', '.join(x['name'] + '.' + method_name.capitalize() for x in results))
 
 @bot.command(aliases=['codereindex'])
 async def on_codereindex(ctx):

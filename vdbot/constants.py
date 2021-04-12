@@ -15,5 +15,7 @@ You also have the ability to use some commands in the server. The following comm
 
 **!mod <query>** - Search for Mods on Thunderstore and Nexusmods
 
+**!xkcd** - Get a random xkcd funny
+
 **!help** - Get the available commands for the bot!
 """

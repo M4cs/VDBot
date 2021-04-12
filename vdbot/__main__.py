@@ -1,4 +1,7 @@
 from vdbot import run_bot
 
 if __name__ == "__main__":
-    run_bot()
+    try:
+        run_bot()
+    except KeyboardInterrupt:
+        exit()

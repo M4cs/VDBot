@@ -17,5 +17,11 @@ You also have the ability to use some commands in the server. The following comm
 
 **!xkcd** - Get a random xkcd funny
 
+**!findfield, !field** - Find info about a field from Valheim
+
+**!findclass, !class** - Find info about a class from Valheim
+
+**!findmethod, !method** - Find info about a method from Valheim
+
 **!help** - Get the available commands for the bot!
 """

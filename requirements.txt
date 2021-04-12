@@ -8,3 +8,4 @@ rich==10.1.0
 fuzzywuzzy==0.18.0
 python-Levenshtein==0.12.2
 xkcd==2.4.2
+pymongo==3.11.2

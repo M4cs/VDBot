@@ -3,5 +3,6 @@ services:
         build: .
         environment:
             - BOT_TOKEN=${BOT_TOKEN}
+            - MONGO_URI=${MONGO_URI}
         volumes:
             - "./:/usr/app"

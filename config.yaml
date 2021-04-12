@@ -1,1 +1,3 @@
 token: ${env:BOT_TOKEN}
+db:
+  url: ${env:MONGO_URI}

@@ -75,9 +75,7 @@ class CodeIndexer():
             methods = []
             for res in results:
                 mth = db.class_index.find({"methods.name": { "$in": [res[0]]}})
-                for m in mth:
-                    if m not in methods:
-                        methods.append(mth)
+                methods.append(mth)
             return False, methods
 
 class Statistics:

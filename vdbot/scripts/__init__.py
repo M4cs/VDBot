@@ -85,7 +85,12 @@ async def on_findfield(ctx, field_name):
             embed = Embed(title="**Field:** " + class_name + "." + field_name, description=f"**Field Type:** {our_field['type']}\n**Is Private:** {'True' if our_field['is_private'] else 'False'}")
             await ctx.reply(embed=embed)
     else:
-        await ctx.reply("Could not find field. Possible meanings " + ', '.join(x['name'] + '.' + field_name.capitalize() for x in results))
+        names = []
+        for res in results:
+            for r in res:
+                if r['name'] not in names:
+                    names.append(r['name'] + '.' + field_name)
+        await ctx.reply("Could not find field. Possible meanings " + ', '.join(names))
 
 
 
@@ -114,7 +119,13 @@ async def on_findmethod(ctx, method_name):
             embed = Embed(title="**Method:** " + class_name + "." + method_name, description=f"**Return Type:** {our_method['type']}\n**Is Private:** {'True' if our_method['is_private'] else 'False'}\n**Parameters:** {', '.join(params) if len(params) > 0 else 'No Params'}")
             await ctx.reply(embed=embed)
     else:
-        await ctx.reply("Could not find method. Possible meanings " + ', '.join(x['name'] + '.' + method_name.capitalize() for x in results))
+        names = []
+        for res in results:
+            for r in res:
+                if r['name'] not in names:
+                    names.append(r['name'] + '.' + method_name)
+
+        await ctx.reply("Could not find method. Possible meanings: " + ', '.join(names))
 
 @bot.command(aliases=['codereindex'])
 async def on_codereindex(ctx):

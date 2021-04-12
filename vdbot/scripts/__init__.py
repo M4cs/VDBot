@@ -89,8 +89,8 @@ async def on_findfield(ctx, field_name):
         for res in results:
             for r in res:
                 if r['name'] not in names:
-                    names.append(r['name'] + '.' + field_name)
-        await ctx.reply("Could not find field. Possible meanings " + ', '.join(names))
+                    names.append(r['name'])
+        await ctx.reply("Could not find field. Possible classes to query " + ', '.join(names))
 
 
 
@@ -123,9 +123,9 @@ async def on_findmethod(ctx, method_name):
         for res in results:
             for r in res:
                 if r['name'] not in names:
-                    names.append(r['name'] + '.' + method_name)
+                    names.append(r['name'])
 
-        await ctx.reply("Could not find method. Possible meanings: " + ', '.join(names))
+        await ctx.reply("Could not find method. Possible classes to look at: " + ', '.join(names))
 
 @bot.command(aliases=['codereindex'])
 async def on_codereindex(ctx):

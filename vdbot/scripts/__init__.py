@@ -95,7 +95,7 @@ async def on_findmethod(ctx, method_name):
     if found:
         if results.count() > 1:
             embed = Embed(title="Ambiguous Match Found!", description="This Method Was Found In Multiple Classes!")
-            embed.add_field(name="Matches:", value=', '.join(x['name'] + '.' + method_name.capitalize() for x in results)]))
+            embed.add_field(name="Matches:", value=', '.join(x['name'] + '.' + method_name.capitalize() for x in results))
             await ctx.reply(embed=embed)
         else:
             if '.' in method_name:

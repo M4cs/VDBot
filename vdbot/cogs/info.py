@@ -2,6 +2,11 @@ from vdbot import bot, stats
 from discord import Embed
 from discord.ext import commands
 
+@bot.command(aliases=['lmg', 'lmgtfy'])
+async def on_lmgtfy(ctx, *, query):
+    await ctx.message.delete()
+    await ctx.channel.send(content="https://lmgtfy.com?q=" + query.replace(" ", "+"))
+
 @bot.command(aliases=['wiki', 'wheretostart', 'wts'])
 async def on_wiki(ctx):
     async with ctx.channel.typing():

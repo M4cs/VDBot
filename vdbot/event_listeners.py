@@ -24,7 +24,7 @@ async def on_ready():
 @bot.event
 async def on_message(ctx):
     if ctx.author.id != bot.user.id:
-        if '```' in ctx.content and '```cs\n' not in ctx.content and any(x for x in ['private', 'public', 'int', 'string', 'static', ');', '{\n', 'using', ';\n']) in ctx.content:
+        if any(x for x in ['private', 'public', 'int', 'string', 'static', ');', '{\n', 'using', ';\n']) in ctx.content and '```' in ctx.content and '```cs\n' not in ctx.content:
             await ctx.reply(embed=Embed(title="Be A Homie", description="Use syntax highlighting! You can do so by adding code blocks with the language, like this:\n\n\\```cs\n\n\\```"))
     await bot.process_commands(ctx)
     stats.msgs_parsed += 1

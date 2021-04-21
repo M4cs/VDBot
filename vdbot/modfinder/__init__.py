@@ -8,8 +8,9 @@ class ModFinder:
         with open('mods.json', 'r') as f:
             self.mods = json.loads(f.read())
         self.mod_titles = self.mods.keys()
-        res = requests.get('https://valheim.thunderstore.io/api/v1/package').json()
-        for mod in res:
+        res = requests.get('https://valheim.thunderstore.io/api/v1/package')
+        res_json = res.json()
+        for mod in res_json:
             if mod['name'] in self.mod_titles:
                 self.mods[mod['name']]['url'] += "\n**TS Link:** " + mod['package_url']
             else:
@@ -28,8 +29,9 @@ class ModFinder:
         with open('mods.json', 'r') as f:
             self.mods = json.loads(f.read())
         self.mod_titles = self.mods.keys()
-        res = requests.get('https://valheim.thunderstore.io/api/v1/package').json()
-        for mod in res:
+        res = requests.get('https://valheim.thunderstore.io/api/v1/package')
+        res_obj = res.json()
+        for mod in res_obj:
             if mod['name'] in self.mod_titles:
                 self.mods[mod['name']]['url'] += "\n**TS Link:** " + mod['package_url']
             else:

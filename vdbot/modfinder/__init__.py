@@ -1,5 +1,6 @@
 from fuzzywuzzy import process
 import json, requests
+from requests.api import head
 
 class ModFinder:
     def __init__(self):
@@ -8,7 +9,11 @@ class ModFinder:
         with open('mods.json', 'r') as f:
             self.mods = json.loads(f.read())
         self.mod_titles = self.mods.keys()
-        res = requests.get('https://valheim.thunderstore.io/api/v1/package')
+        headers = {
+            'Accept': 'application/json',
+            'User-Agent': 'Bot of Yggdrasil Discord/Valheim Modding Discord Bot v1.0'
+        }
+        res = requests.get('https://valheim.thunderstore.io/api/v1/package/', headers=headers)
         res_json = res.json()
         for mod in res_json:
             if mod['name'] in self.mod_titles:
@@ -29,7 +34,11 @@ class ModFinder:
         with open('mods.json', 'r') as f:
             self.mods = json.loads(f.read())
         self.mod_titles = self.mods.keys()
-        res = requests.get('https://valheim.thunderstore.io/api/v1/package')
+        headers = {
+            'Accept': 'application/json',
+            'User-Agent': 'Bot of Yggdrasil Discord/Valheim Modding Discord Bot v1.0'
+        }
+        res = requests.get('https://valheim.thunderstore.io/api/v1/package/', headers=headers)
         res_obj = res.json()
         for mod in res_obj:
             if mod['name'] in self.mod_titles:

@@ -23,7 +23,6 @@ async def on_invite_link(ctx):
     await ctx.channel.send('https://discord.gg/MXqWrn532w')
 
 @bot.command(aliases=['info', 'yggdrasil'])
-@commands.has_role("Moderator")
 async def on_info(ctx):
     embed = Embed(title="Böt of Yggdrasil", description="https://github.com/M4cs/VDBot")
     async with ctx.channel.typing():
@@ -42,4 +41,4 @@ async def on_info(ctx):
         embed.add_field(name="📝 Messages Parsed", value=str(stats.msgs_parsed), inline=True)
         embed.add_field(name="🏃‍♂️ Commands Run", value=str(stats.command_count), inline=True)
         embed.add_field(name="✏ Written By", value="<@368083908862017537>")
-    await ctx.reply(embed=embed)
+    await ctx.author.send(embed=embed)

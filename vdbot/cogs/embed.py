@@ -3,6 +3,12 @@ from discord import Embed
 
 allowed_users = [368083908862017537, 830587634110693388, 524039295317835797]
 
+@bot.command('code')
+async def on_code(ctx, *, code):
+    await ctx.message.delete()
+    code = '```cs\n' + code.rstrip() + '\n```'
+    await ctx.channel.send(code)
+
 @bot.command(aliases=['embed', 'e'], help="Embed a message")
 async def on_embed(ctx, title, *, text):
     if ctx.message.author.id in allowed_users:

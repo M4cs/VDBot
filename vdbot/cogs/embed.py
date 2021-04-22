@@ -24,7 +24,7 @@ async def on_code(ctx, *, code):
             code_lines[i] = code_line[max_spaces:]
     await ctx.message.delete()
     code = f'**Posted by <@{ctx.author.id}>**\n\n```cs\n' + '\n'.join(code_lines) + '\n```'
-    await ctx.channel.send(embed=embed)
+    await ctx.channel.send(code)
 
 @bot.command(aliases=['embed', 'e'], help="Embed a message")
 async def on_embed(ctx, title, *, text):

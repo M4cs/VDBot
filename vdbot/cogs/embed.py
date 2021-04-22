@@ -23,9 +23,7 @@ async def on_code(ctx, *, code):
         if code_line.startswith(' '):
             code_lines[i] = code_line[max_spaces:]
     await ctx.message.delete()
-    code = '```cs\n' + '\n'.join(code_lines) + '\n```'
-    embed = Embed(title=f"Code Snippet")
-    embed.add_field(name=f"I formatted this for you", value=f"Posted by <@{ctx.author.id}>\n" + code)
+    code = f'**Posted by <@{ctx.author.id}>**\n\n```cs\n' + '\n'.join(code_lines) + '\n```'
     await ctx.channel.send(embed=embed)
 
 @bot.command(aliases=['embed', 'e'], help="Embed a message")

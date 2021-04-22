@@ -5,8 +5,25 @@ allowed_users = [368083908862017537, 830587634110693388, 524039295317835797]
 
 @bot.command('code')
 async def on_code(ctx, *, code):
+    code_lines = code.split('\n')
+    max_spaces = 0
+    if code_lines[0].startswith(' '):
+        for x in code_lines[0]:
+            if x == ' ':
+                max_spaces += 1
+            else:
+                break
+    elif code_lines[1].startswith(' '):
+        for x in code_lines[1]:
+            if x == ' ':
+                max_spaces += 1
+            else:
+                break
+    for i, code_line in enumerate(code_lines):
+        if code_line.startswith(' '):
+            code_lines[i] = code_line[max_spaces:]
     await ctx.message.delete()
-    code = '```cs\n' + code.rstrip() + '\n```'
+    code = '```cs\n' + '\n'.join(code_lines) + '\n```'
     await ctx.channel.send(code)
 
 @bot.command(aliases=['embed', 'e'], help="Embed a message")

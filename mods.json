@@ -184,8 +184,8 @@
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/44/44-1613814387-1103737295.jpeg",
         "url": "https://www.nexusmods.com/valheim/mods/44"
     },
-    "Discard Inventory Items": {
-        "summary": "Allows you to discard inventory items by pressing a hotkey.",
+    "Discard or Recycle Inventory Items": {
+        "summary": "Allows you to recycle or discard inventory items by pressing a hotkey.",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/45/45-1613816043-948137816.png",
         "url": "https://www.nexusmods.com/valheim/mods/45"
     },
@@ -359,8 +359,8 @@
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/93/93-1614064013-1981436011.png",
         "url": "https://www.nexusmods.com/valheim/mods/93"
     },
-    "Triple Bronze": {
-        "summary": "Triples the amount of bronze you get with each craft so that crafting bronze is consistent (1 tin ingot + 2 copper ingots = 3 bronze ingots). Also adds QOL recipes from ores -&gt; bars in the forge if enabled in the configuration file.",
+    "Triple Bronze BROKEN": {
+        "summary": "Triples the amount of bronze you get with each craft so that crafting bronze is consistent (1 tin ingot + 2 copper ingots = 3 bronze ingots). Also adds QOL recipes from ores -&gt; bars in the forge if enabled in the configuration file.<br />** CURRENTLY BROKEN",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/94/94-1614077335-1532767943.png",
         "url": "https://www.nexusmods.com/valheim/mods/94"
     },
@@ -974,11 +974,6 @@
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/234/234-1614708957-210341298.png",
         "url": "https://www.nexusmods.com/valheim/mods/234"
     },
-    "TerrainTools": {
-        "summary": "Terrain debugging and removal tools for Valheim. Allows you to locate and remove laggy terrain modifications.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/235/235-1614709304-455402509.png",
-        "url": "https://www.nexusmods.com/valheim/mods/235"
-    },
     "Hold Attack": {
         "summary": "This plugin allows you to hold mine and attack.",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/236/236-1614710627-42922343.png",
@@ -1148,11 +1143,6 @@
         "summary": "A 4 story player house loosely based on Dragon's Reach from Skyrim.",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/275/275-1614884817-398165391.jpeg",
         "url": "https://www.nexusmods.com/valheim/mods/275"
-    },
-    "Badgers 2k Re-Texture": {
-        "summary": "A 2k Re-Texture using new textures. Diffuse, Normal, and Metal maps included where applicable.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/277/277-1614893799-981118757.jpeg",
-        "url": "https://www.nexusmods.com/valheim/mods/277"
     },
     "Custom Raids": {
         "summary": "This mod allows for customizing raids to your liking.<br /><br />Want to have armies besieging your fortress? A bit of extra environmental effects along your way? Or just disable trolls?<br /><br />Comes with two example raids.",
@@ -1430,7 +1420,7 @@
         "url": "https://www.nexusmods.com/valheim/mods/349"
     },
     "Willybach's Custom Textures": {
-        "summary": "This mod is to be used with CustomTextures mod by Aedenthorn.<br /><br />Version 0.9 nearly completes the Landscape for four first Biomes: Meadows, Plains and Forest. Also it adds more Building and Crafting textures.<br /><br />0.91 Adds optional 4K tree bark textures",
+        "summary": "This mod is to be used with CustomTextures mod by Aedenthorn. Includes main choice textures as well as many alternatives for you to choose from.",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/350/350-1615752565-1520875300.png",
         "url": "https://www.nexusmods.com/valheim/mods/350"
     },
@@ -1801,7 +1791,7 @@
     },
     "Better Trader": {
         "summary": "Adds a custom trader menu, 310+ items to buy/sell, built-in support for Epic Loot, and an extensive list of configuration options.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/433/433-1616021080-1211538210.png",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/433/433-1619842772-825614592.jpeg",
         "url": "https://www.nexusmods.com/valheim/mods/433"
     },
     "Black Metal Overhaul": {
@@ -1900,7 +1890,7 @@
         "url": "https://www.nexusmods.com/valheim/mods/455"
     },
     "Mod Config Enforcer": {
-        "summary": "Mod Config Enforcer is a utility mod for mod authors. It allows them to support servers setting configs and then enforcing those settings onto connecting clients using their mod.<br /><br />IF YOU ARE A USER, ALL YOU NEED TO DO IS INSTALL THIS MOD. THAT'S IT.",
+        "summary": "Mod Config Enforcer is a utility mod for mod authors. It allows them to support servers setting configs and then enforcing those settings onto connecting clients using their mod.<br /><br />IF YOU ARE A USER, ALL YOU NEED TO DO IS INSTALL THIS MOD. THAT'S IT.<br /><br />Version 2.0 and later is a breaking change from the previous versions.",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/460/460-1615602287-1494977372.png",
         "url": "https://www.nexusmods.com/valheim/mods/460"
     },
@@ -2831,7 +2821,7 @@
     },
     "RRR Core": {
         "summary": "Core library required by all of my other mods.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/671/671-1616605216-759927498.png",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/671/671-1619814481-446432348.png",
         "url": "https://www.nexusmods.com/valheim/mods/671"
     },
     "Character Whitelist": {
@@ -2896,7 +2886,7 @@
     },
     "RRR Non-Player Characters": {
         "summary": "Adds non-player humans to the game, both enemy humans and lets you design and gear custom tameable NPCs (friendly or not) in config files for use in console spawning and other mods.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/687/687-1616606425-363862069.png",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/687/687-1619550976-1671413091.png",
         "url": "https://www.nexusmods.com/valheim/mods/687"
     },
     "Fortified Outpost": {
@@ -2935,8 +2925,8 @@
         "url": "https://www.nexusmods.com/valheim/mods/695"
     },
     "Seven Portal Hub": {
-        "summary": "Features 7 Portals around a circular center with a double hearth.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/698/698-1616593685-1793717022.png",
+        "summary": "Edit 4/24: Updated the structure to keep it from falling apart. Kept the Original design.<br /><br />Features 7 Portals around a circular center with a double hearth.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/698/698-1619278820-1918529945.jpeg",
         "url": "https://www.nexusmods.com/valheim/mods/698"
     },
     "Better Auto Run": {
@@ -2956,7 +2946,7 @@
     },
     "RRR Monsters": {
         "summary": "Adds new enemies to the game.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/702/702-1616604994-1081836624.png",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/702/702-1619551136-988251946.png",
         "url": "https://www.nexusmods.com/valheim/mods/702"
     },
     "Fang Spear of the Hunter": {
@@ -2971,7 +2961,7 @@
     },
     "RRR Better Raids": {
         "summary": "Dramatically improves the vanilla raid experience to make raids and base defense actually matter.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/705/705-1616617191-1353011007.png",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/705/705-1619550793-1122937759.png",
         "url": "https://www.nexusmods.com/valheim/mods/705"
     },
     "Epic Loot Addon - MCE": {
@@ -3451,7 +3441,7 @@
     },
     "Candyman's Realistic Foliage": {
         "summary": "A Pack of Immersive and Realistic Foliage and Terrain Textures",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/819/819-1617086237-1685318142.png",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/819/819-1620003919-261380876.png",
         "url": "https://www.nexusmods.com/valheim/mods/819"
     },
     "Basic WatchTower": {
@@ -3505,7 +3495,7 @@
         "url": "https://www.nexusmods.com/valheim/mods/833"
     },
     "House of Groa": {
-        "summary": "Another exciting build coming your way! :D",
+        "summary": "The V\u00f6lva",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/835/835-1617232069-662292117.jpeg",
         "url": "https://www.nexusmods.com/valheim/mods/835"
     },
@@ -3710,7 +3700,7 @@
         "url": "https://www.nexusmods.com/valheim/mods/878"
     },
     "Enhanced Potions": {
-        "summary": "Enhanced Potions adds new powerful mead bases and potions.<br />Forsaken powers, greater stamina and health potions, unrestricted portal use, flying, walking underwater, stronger attacks, waterproof, gain swim skill faster and more. <br />Totally customizable &amp; frequently updated, so stay tuned!",
+        "summary": "Enhanced Potions adds new powerful mead bases and potions.<br />Forsaken powers, greater stamina and health potions, extended rested buff, unrestricted portal use, flying, walking underwater, stronger attacks, waterproof, gain swim skill faster and more. <br />Totally customizable &amp; frequently updated, so stay tuned!",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/879/879-1618506723-572527007.jpeg",
         "url": "https://www.nexusmods.com/valheim/mods/879"
     },
@@ -3960,7 +3950,7 @@
         "url": "https://www.nexusmods.com/valheim/mods/942"
     },
     "Plant Grow Time": {
-        "summary": "Modify the grow time of default game plants",
+        "summary": "Modify the grow time and drop rate of default game plants",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/943/943-1617835555-1769856575.png",
         "url": "https://www.nexusmods.com/valheim/mods/943"
     },
@@ -4053,11 +4043,6 @@
         "summary": "Tired of having to add resin to the tens or hundreds of torches lighting up your viking village? This mod takes care of that by allowing you to set a time-span during which they are always on, even if they burned all their fuel. Never let your base go dark again!",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/962/962-1617986042-593016864.png",
         "url": "https://www.nexusmods.com/valheim/mods/962"
-    },
-    "EasyFarm": {
-        "summary": "This mod let's you plant multiple crops at the same time with automatic perfect distancing.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/964/964-1617981395-1590427285.jpeg",
-        "url": "https://www.nexusmods.com/valheim/mods/964"
     },
     "(PvP) Battlegrounds - Avernus Reach": {
         "summary": "PvP Map, designed for equal opportunity PvP<br /><br />PvP Centric<br /><br />Special thanks to all of Avernus, especially Eman, Sneaky Fingerz and lNotoriety!",
@@ -4155,7 +4140,7 @@
         "url": "https://www.nexusmods.com/valheim/mods/989"
     },
     "Auto Camera Zoom - Controller QoL": {
-        "summary": "Automatically changes the camera zoom. A great QoL if you play with a Controller as you otherwise cannot zoom out.",
+        "summary": "Automatically changes the camera zoom. A great Quality of Life mod if you play with a Controller as you otherwise cannot zoom in or out.",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/990/990-1618223835-2116518277.png",
         "url": "https://www.nexusmods.com/valheim/mods/990"
     },
@@ -4195,13 +4180,633 @@
         "url": "https://www.nexusmods.com/valheim/mods/997"
     },
     "Revamped Portal Hub": {
-        "summary": "Realizing too many pieces may cause lag I went with a slimmer design.",
-        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/998/998-1618259634-1886166703.jpeg",
+        "summary": "EDIT 4/29: Fixed some issues like fire going out when it rains. Fireplace also upgraded the design. Updated all photos and added a new video.<br /><br />Realizing too many pieces may cause lag I went with a slimmer design.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/998/998-1619685261-1941200549.jpeg",
         "url": "https://www.nexusmods.com/valheim/mods/998"
     },
     "Hellheim - Map 1": {
         "summary": "Ready for a hell of a challenge?  Mistlands are now to the south and Ashlands are blended across the map.  Map created using Better Continents and World Gen Options mods.",
         "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/999/999-1618263015-829071975.png",
         "url": "https://www.nexusmods.com/valheim/mods/999"
+    },
+    "House of Heid": {
+        "summary": "The V\u00f6lva",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1000/1000-1618263724-318545019.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1000"
+    },
+    "Skald - Extended Lore Texts - Valheim BepInEx Plugin": {
+        "summary": "This mod adds a series of lore-friendly and immersive text content to runestones and random dreams.<br />Perfect for an RP server or players that like to avoid the wiki when playing.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1001/1001-1618483019-1208927039.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1001"
+    },
+    "Valheim Inventory Control Mod": {
+        "summary": "This mod is intended to revamp the inventory screen. Currently it provides the following features:<br />-Swap MoveStack and SplitStack keys",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1002/1002-1618284070-419231067.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1002"
+    },
+    "NECROMANCY": {
+        "summary": "This mod introduces Necromancy into the game. It allows the player to summon up to 8 powerful skeletons by sacrificing HP with a new \"convoking wand\" added into the game. You can heal, sacrifice, and command your skeletons. Skeletons will also teleport with you and follow you.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1003/1003-1618543983-2051612713.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1003"
+    },
+    "Improved Boar": {
+        "summary": "The mod expands the available functionality of the tamed boar and boar's baby. The boar can follow you like a wolf, is not afraid of light sources, and is also not attacked by dangerous mobs.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1004/1004-1618302181-985814579.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1004"
+    },
+    "Beds-NoNearbyEnemyCheck": {
+        "summary": "This mod disables a check for \"Enemies nearby\" while going to sleep",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1005/1005-1618308451-2143817552.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1005"
+    },
+    "NoEdgeOfMapKill": {
+        "summary": "This mod disables killing on the edge of map",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1007/1007-1618309493-1382598525.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1007"
+    },
+    "Custom Building Material Proterties": {
+        "summary": "Allows you to edit building material properties to allow you to build more beautiful structures :)",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1008/1008-1618310068-1383735243.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1008"
+    },
+    "Repair Specific Items": {
+        "summary": "Lets you repair a specific item by alt+click. Option to require a portion of crafting materials to repair and pull materials from containers using Craft From Containers.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1011/1011-1618326092-243613553.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1011"
+    },
+    "TinHouse with basement": {
+        "summary": "House with basement<br /><br /><br />This is 1 out of 4 house builds, of almost identical houses.<br /><br />1. TinHouse Full roof to ground<br />2. TinHouse with attic  <br />3. TinHouse with basement<br />4. TinHouse Dobbel Long House",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1012/1012-1619724687-849318571.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1012"
+    },
+    "ValheimFPSBoost2": {
+        "summary": "Original mod created by castix, but modified to only disable shadows.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1013/1013-1618351911-2123453605.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1013"
+    },
+    "Cooking with Jormungandr": {
+        "summary": "Cooking with J\u00f6rmungandr is a food / item mod that adds new base food drops, recipes, and drinks to the game. Bacon-wrapped Neck Tail, anyone?",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1014/1014-1618420130-410201006.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1014"
+    },
+    "Small Base 2": {
+        "summary": "Small Base, Forge and Workbench upgraded. Everything BUT a windmill. Outdoor door for Teleporter. (some reason teleporters aren't going through) Upstairs Bed, Spinning wheel, Artisan Table. Fermenters, a few bee hives. A Little cramped, but a really nice design.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1015/1015-1618442532-2115132977.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1015"
+    },
+    "Spud's Sharpness": {
+        "summary": "This mod adds a simple building piece called the Grindstone that allows you to sharpen your weapon which will give them a buff that makes them deal more damage for 10 minutes",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1016/1016-1618445325-2022661134.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1016"
+    },
+    "The Normanni Alcazar": {
+        "summary": "Edited 4/27: Fixed the issues with this build so the updated version is available from the Files tab. v4<br />Edited 4/24: A Different Version of this is at https://www.nexusmods.com/valheim/mods/1084<br /><br />The Northman (known as Normanni in Iberia) Alacazar (Castle). Is small and humble but a wonder to see.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1017/1017-1618471608-326506326.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1017"
+    },
+    "Supplemental spawners for Spawn That": {
+        "summary": "Supplemental spawn that configs for different things.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1018/1018-1618488373-1034325944.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1018"
+    },
+    "Switchcode's treehouse": {
+        "summary": "A house built around a tree. You'll need a fully grown Pine tree on a ~2m mound to place it over as foundation.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1019/1019-1618504123-1013357774.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1019"
+    },
+    "TinHouse with attic": {
+        "summary": "TinHouse with attic<br /><br /><br />This is 1 out of 4 house builds, of almost identical houses.<br /><br />1. TinHouse Full roof to ground<br />2. TinHouse with attic  <br />3. TinHouse with basement<br />4. TinHouse Dobbel Long House",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1020/1020-1618518296-1736989025.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1020"
+    },
+    "Valweed": {
+        "summary": "Adds craftable joints to Valheim. Roll up anywhere (:<br />Grants 'Rested' when consumed.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1023/1023-1618555176-2050659321.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1023"
+    },
+    "Save files keept where you want": {
+        "summary": "Allows you to change where worlds/characters and everything from folder \"C:&#92;Users&#92;Username&#92;AppData&#92;LocalLow&#92;IronGate&#92;Valheim&#92;\" is saved and loaded from.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1024/1024-1618567187-627809423.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1024"
+    },
+    "ValheimFPSBoost Custom": {
+        "summary": "Allows you to custom choose what you want to edit in unity QualitySettings. file automatically is created with current game settings.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1026/1026-1618574882-429045991.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1026"
+    },
+    "Odin's PotionsPlus": {
+        "summary": "Adds a variety of farmiluar potions to the game, additional healing and stamina potions for Game Servers that have increased monster difficulty or spell casting.<br />-- potions for combat situations: Healing, Stamina, Magelight, Fortitude, and more -- Improved bottle textures.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1027/1027-1618580637-1178345049.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1027"
+    },
+    "TinHouse Full roof to ground": {
+        "summary": "TinHouse Full roof to ground<br /><br /><br />This is 1 out of 4 house builds, of almost identical houses.<br /><br />1. TinHouse Full roof to ground<br />2. TinHouse with attic  <br />3. TinHouse with basement<br />4. TinHouse Dobbel Long House",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1029/1029-1618605250-1546258568.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1029"
+    },
+    "Willybach's HD Valheim": {
+        "summary": "This is my attempt at overhauling the textures of this great game, whilst trying as best I can to stick with the colour scheme and feel of vanilla. Covers most Biomes so far and many Building textures. Halfway through creatures/animals. Starting now weapons and Armor. Upscales and Optimizes vanilla textures also. <br /><br />Multiple versions avail",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1030/1030-1618617661-684342419.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1030"
+    },
+    "Rooty's 2 Person Longhouse": {
+        "summary": "A nice 2 person longhouse with level 17 comfort, level 7 forge and level 5 workbench.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1031/1031-1618616702-433327698.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1031"
+    },
+    "STARBASE": {
+        "summary": "I really like zig-zag walls as they look really neat from the outside.<br />Small addition with a Smelter. Blast Furnace, Kiln, and the windmill \"empties\" inside. Ladder/ramp to fill.<br /><br />\"About\" 25 radius to include overhangs.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1032/1032-1618617058-1519520949.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1032"
+    },
+    "Boxbase": {
+        "summary": "A tiny but complete base in a solid stone structure.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1033/1033-1618619198-458164421.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1033"
+    },
+    "Tame the Troll": {
+        "summary": "A BuildShare 1.5.1 blueprint that uses an existing feature, in this case a Troll Cave, as a frame for the build.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1034/1034-1618619403-1799329443.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1034"
+    },
+    "Sailing Overhauls": {
+        "summary": "Changes how wind and sailing works. Now, the wind is stronger depending on the weather, and the stronger the wind the more difficult it is to sail.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1035/1035-1618659591-1808013023.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1035"
+    },
+    "QIYE_Configuration Manager": {
+        "summary": "Configuration manager from aedendorn, recompile into Chinese, production is not easy, like please endorse my work, thank you!",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1036/1036-1618663647-1341463416.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1036"
+    },
+    "Nel'Voreth -  a Custom map": {
+        "summary": "A playable customized map for Valheim.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1038/1038-1618673076-1813520675.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1038"
+    },
+    "Floors are Roofs": {
+        "summary": "A simple mod that allows wooden floors to count as roofs, so you can build a workbench, bed, and get rested.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1039/1039-1618675977-910240653.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1039"
+    },
+    "TinWorkPlace multi": {
+        "summary": "TinWorkPlace multi function<br /><br />It\u00b4s a building template that can be used for whatever you want",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1041/1041-1618682742-326700706.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1041"
+    },
+    "Plant Everything": {
+        "summary": "Rewrite of the Planting Plus mod by bkeyes93. Allows your cultivator to plant berry bushes, thistle, dandelions, any kind of mushroom, as well as previously unavailable tree types and saplings. Highly configurable with localization support. New: Now includes more flora, including vines for your walls!",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1042/1042-1618905952-462602285.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1042"
+    },
+    "Fartheim": {
+        "summary": "Farts. It's farts. Everything that could fart, farts. Some things that shouldn't fart, fart.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1044/1044-1618694699-1748123112.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1044"
+    },
+    "Friendlies": {
+        "summary": "Adds multiple tiers of friendly NPCs the RRR Non-Player Characters mod. The NPCs can be interacted with the same way as a tamed wolf and will follow the player. Ideal for base defense, especially if you're using RRR Better Raids.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1045/1045-1618696684-471262035.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1045"
+    },
+    "Improved Silver Sword": {
+        "summary": "Slightly modified and tweaked mesh of the Silver Sword. <br />Mostly a wider and more profound guard and longer grip handle, also slightly wider blade.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1047/1047-1618702450-1823288317.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1047"
+    },
+    "Improved Fang Spear": {
+        "summary": "Slightly improved Fang Spear mesh. <br />Changed the length and girth a little bit to have similar proportions to Ancient Bark Spear.<br />Also enlarged the \"fang\" part of the spear since the original one looks a bit disappointing.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1048/1048-1618703202-1043718337.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1048"
+    },
+    "Improved Black Metal Sword": {
+        "summary": "Slightly reworked Black Metal Sword.<br />Enlarged guard and handle, with a slightly longer blade to make it look more falchion-like.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1049/1049-1618706761-1345707271.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1049"
+    },
+    "Valheim Permissions": {
+        "summary": "Valheim Permissions adds the following capability to Valheim<br /><br />Mod Developers:<br />Will now be able to create a permission based command list where you can only use a command if you have access to it, etc.<br /><br />Server Owners:<br />Will be able to add/remove permissions etc quickly while in game.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1050/1050-1618776805-1403659901.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1050"
+    },
+    "Sleepover - Total Bed Control - Valheim BepInEx Plugin": {
+        "summary": "This mod adds toggleable options for each of the checks for bed use/sleeping, as well as a couple of small useful additions such as ignoring spawnpoint creation and allowing people to bunk together.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1052/1052-1618760154-880302523.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1052"
+    },
+    "Better Ladders": {
+        "summary": "Mod changes ladder's behavior, so player can go up smoothly without need to auto-jump",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1054/1054-1618769008-394944602.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1054"
+    },
+    "16 Storage Workshop (small)": {
+        "summary": "Thanks to https://www.valheimians.com/member/alphasol/ for the storage in the floor idea.<br />Fully upgraded Workbench and Forge. (5+7)<br />Includes: Beehives, Brew Barrels, Windmill (outside), Smelter. Blast Furnace, Kiln (kind of upstairs), Fireplace, 16x28 Storage (in floor), Spinning Wheel, Artisan Table, Stonecutter, Bed (why not?)",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1055/1055-1618783054-784998369.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1055"
+    },
+    "TINY 5x8 blocks": {
+        "summary": "5x8 block not counting the fireplace and entryway. Still really so small it's almost not there. Mark it on your map or you'll never find it again.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1057/1057-1618796522-1573773755.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1057"
+    },
+    "Restore Server Resources": {
+        "summary": "Mod allows you to restore your server resources:<br />Copper Veins, Silver Veins, Metal (Iron) mudpiles inside crypts",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1059/1059-1618805989-1146058473.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1059"
+    },
+    "BetterTrader Configuration File": {
+        "summary": "A configuration file for the mod: Better Trader by Menthus15, such a great mod, but the configuration file was temporary fill-in, so I decided to tweak it to make a better economy, and a way to use our hoarded resources and items. ;)",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1060/1060-1618853275-113303085.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1060"
+    },
+    "UBG's Mod Utils": {
+        "summary": "This is a support mod that is required for most other Unbridled Games mods. On it's own it does nothing, so don't bother downloading it by itself. Instead of copying the same code over and over into other mods, we made a common library.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1061/1061-1618854539-199599051.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1061"
+    },
+    "UBG's Enhanced and Smart Map Markers": {
+        "summary": "Adds a bunch of new map markers, including auto-marking places you pick berries, thistle, mushrooms, etc. Also, never lose your boat again! Automatic Boat marker placement when you disembark (and clearing the existing marker when you board!)",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1062/1062-1618859655-1267322045.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1062"
+    },
+    "Wagon Skill": {
+        "summary": "Adds a wagon skill to the game. Makes wagon's easier to pull the higher your wagons skill is. Level up your wagon skill by pulling  wagons.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1063/1063-1618861361-852459236.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1063"
+    },
+    "UBG's Custom Build Pieces": {
+        "summary": "A small selection of new build pieces to begin with to test the mod on a wide scale. Included are the 1x1 wall, the 4x2 stone block, and a flat roof piece.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1064/1064-1618860815-1003985413.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1064"
+    },
+    "The Handsome Wolf": {
+        "summary": "\ub291\ub300\ub97c \ub354\uc6b1 \ub9ac\uc5bc\ud558\uace0 \uafc8\uc774\ub118\uce58\uac8c \ub9cc\ub4e4\uc5b4\uc90d\ub2c8\ub2e4!",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1066/1066-1618879454-1905120708.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1066"
+    },
+    "Carry Weight Skill": {
+        "summary": "This mod ads a new skill called Carry Weight which increases the players max carry capacity as it levels up.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1067/1067-1618967979-169964155.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1067"
+    },
+    "Death Tweaks": {
+        "summary": "Lets you tweak what happens when you die, including item dropping and keeping, whether a tombstone is created, whether food levels are kept, whether to reduce skill levels, etc.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1068/1068-1618896676-801548988.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1068"
+    },
+    "Gated Community": {
+        "summary": "Gate house",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1069/1069-1618901857-1012288492.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1069"
+    },
+    "Valheim Companion": {
+        "summary": "Valheim Companion is a utility app that combines many features into one app! Includes a basic mod manager, a Nexus catalogue mirror to browse and download from, a mod configuration utility, a backup and restore system with automated backup options, VRM manager, dedicated server utilites, and more!<br /><br />Play the game your way!",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1070/1070-1619829849-1673425151.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1070"
+    },
+    "ValheimMP": {
+        "summary": "Server and Client modification for Valheim that makes the server completely authoritative. Adds several multiplayer related features as well.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1071/1071-1618946722-2045769852.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1071"
+    },
+    "Val-Maidens": {
+        "summary": "Based on Val-Nude, this NSFW mod reinvents the female character appearance to a more modern style. Includes piercings, tattoos, makeup, eyes, &amp; lingerie. Immersion? - Sure, but only when I'm not staring down my own chest.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1072/1072-1618951183-150203567.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1072"
+    },
+    "Drivable Vehicle Mod": {
+        "summary": "This mod allows you to spawn drivable vehicle in valheim. Also works online.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1073/1073-1618960970-833667721.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1073"
+    },
+    "Pyramid Scheme": {
+        "summary": "Giant Pyramid vbuild.  Empty inside ready to be decorated.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1074/1074-1618984324-1039134951.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1074"
+    },
+    "Multi Breeder": {
+        "summary": "Please follow the link below or enter \"Breeding Tower\"in the Nexusmods search bar for my other iteration. Thank you.<br />BREEDING TOWER LINK: https://www.nexusmods.com/valheim/mods/1085",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1075/1075-1619005485-532020234.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1075"
+    },
+    "BlackSmith House": {
+        "summary": "70% completed Version of the  Vetlive contruction of the Blacksmith House based on the video \"Valheim: How To Build A Blacksmith House\" Link Valheim: How To Build A Blacksmith House - YouTube.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1076/1076-1619028713-670505779.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1076"
+    },
+    "Teepee": {
+        "summary": "H\u00e1u",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1077/1077-1619037814-1342636931.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1077"
+    },
+    "My Favorite Hoe": {
+        "summary": "A separate and significantly improved hoe prefab. Works with the April 19th update 0.150.3",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1078/1078-1619048097-1609984229.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1078"
+    },
+    "Crescent World for Better Continents": {
+        "summary": "Crescent World files for Better Continents",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1079/1079-1619438447-176651299.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1079"
+    },
+    "Fisticuffs (Formerly Valheim-Brawler)": {
+        "summary": "Valheim Brawler is a mod that makes use of the underdeveloped unarmed skill. It adds 6 new tiers of weapons:<br /><br />Wood sprig<br />Studded knuckles<br />Bronze cestus<br />Iron cestus<br />Silver cestus<br />Black metal cestus<br /><br />and one supporting recipe:<br />Iron chain",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1080/1080-1619055842-1727283001.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1080"
+    },
+    "Creatures On Map": {
+        "summary": "This mod displays sea and land, wild and tamed creatures on the map.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1081/1081-1619082329-1207004013.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1081"
+    },
+    "Kemptok's Modern House": {
+        "summary": "This is a .vbuild file of my modern style house.  Buildshare is required.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1083/1083-1619100152-1031328266.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1083"
+    },
+    "NMC-North Man Castle": {
+        "summary": "The Stone work is meticulous. Spacing perfect. My life's work.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1084/1084-1619102846-1677380187.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1084"
+    },
+    "Breeding Tower": {
+        "summary": "An aesthetically pleasing and multi-functional breeding tower that's been reinforced with iron beams. The tower can be used to breed Boar and Wolves respectively and has been tested with 0-2* Boar and Wolves.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1085/1085-1619117269-517520597.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1085"
+    },
+    "ZethPlusHoney - Additional Food and Farming Content (ADD-ON FOR HONEYPLUS)": {
+        "summary": "Adds 6 new craftable food items, and a Black Metal Cultivator + Pickaxe to the game. All with their own recipe's, packaged on the back-end of OhhhLoz's \"HoneyPlus\" for compatability. <br /><br />Usable and craftable in vanilla servers! Just keep the item to yourself ;)",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1086/1086-1619274831-1756887612.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1086"
+    },
+    "More Gates": {
+        "summary": "This mod adds a moveable drawbridge, various gates, doors and misc objects.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1087/1087-1619154316-1106828654.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1087"
+    },
+    "Inventory HUD Info": {
+        "summary": "Shows configurable inventory info and / or weight indicator on the HUD.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1089/1089-1619159439-139348406.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1089"
+    },
+    "Valrath - A playable custom map": {
+        "summary": "A customized map made for a different Valheim experience, including greater diversity and a more realistic environment.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1090/1090-1619179782-1333811854.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1090"
+    },
+    "Mount Up": {
+        "summary": "Allows you to mount and control tamed Loxen, Boars, and Wolves.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1091/1091-1619193401-937905706.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1091"
+    },
+    "No Bow Glow": {
+        "summary": "Removes the Particle Glow Effect on the Draugr Fang Bow.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1092/1092-1619205598-620747324.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1092"
+    },
+    "EpicLoot Fix for BetterTrader": {
+        "summary": "Fixes Epic Loot Gamble pricing to be 20% from BetterTrader price<br />No changes to BetterTrader config",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1093/1093-1619803785-2115106065.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1093"
+    },
+    "Homage Tower": {
+        "summary": "A 13x13x30 keep I was testing the other day. It has enough space for several players, and I installed a Maypole on the third floor for confort.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1094/1094-1619284188-1565746551.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1094"
+    },
+    "TinTheRoadInn": {
+        "summary": "Was in need of a outpost in the plains. 3 biomes meet in the place, so came up with a inn build - The Road Inn.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1096/1096-1619331352-1071007522.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1096"
+    },
+    "AutoSave TImer": {
+        "summary": "Tiny mod to change the default 20 min timer between every save to whatever you want.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1098/1098-1619343582-399562708.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1098"
+    },
+    "ALPHA House": {
+        "summary": "A House restored from the Alpha Version of Valheim and ported to the current Valheim Beta.<br />(Thanks to Buildshare)",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1099/1099-1619342080-702950835.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1099"
+    },
+    "Mofo's Drop Item Using Camera Direction": {
+        "summary": "This is a simple QOL mod from my personal tweaks collection that drops items based on your camera facing, and not your character facing.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1101/1101-1619361796-1237633927.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1101"
+    },
+    "Blade of the Ruined KIng": {
+        "summary": "Explore the World with the Weapon of the Ruined King from League of Legends",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1102/1102-1619365630-331984876.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1102"
+    },
+    "Teepee Supreme": {
+        "summary": "H\u00e1u H\u00e1u",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1104/1104-1619390627-561115696.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1104"
+    },
+    "Controller Button Switch": {
+        "summary": "Lets you set a custom button, key, or axis for each key and button used in the game.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1105/1105-1619391598-1484040896.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1105"
+    },
+    "Medieval Mansion (By EclipsE)": {
+        "summary": "Sharing a Medieval Mansion / Big Stone House (vbuild).<br />Look the images.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1106/1106-1619399970-435433329.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1106"
+    },
+    "Kiera's Shoreline Cottage": {
+        "summary": "Like my other builds, this is a cottage with an internal 6 x 6 foot print.  Set for a low or medium level character with room to grow, including level 3 workbench and tons of storage.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1107/1107-1619438919-1605581984.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1107"
+    },
+    "Gerrick's Cabin Outpost": {
+        "summary": "A stone and log cabin with a small 5 x 5 internal footprint with lots of storage, level 3 workbench and room to expand. Perfect for that mid level character on the move.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1108/1108-1619439951-357348445.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1108"
+    },
+    "NameYourShip": {
+        "summary": "Give your ships names (Longships, Karves or Rafts). User-configurable values for font size, color, positioning and more.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1109/1109-1619478155-1489142639.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1109"
+    },
+    "TinHouse Dobbel Long House": {
+        "summary": "This is 1 out of 4 house builds, of almost identical houses.<br /><br />1. TinHouse Full roof to ground<br />2. TinHouse with attic  <br />3. TinHouse with basement<br />4. TinHouse Dobbel Long House",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1110/1110-1619467220-262220322.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1110"
+    },
+    "ShipToShoreCam": {
+        "summary": "Automatically zoom out the camera when boarding a ship and zoom back in when leaving a ship. Zoom levels are user-configurable.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1112/1112-1619480105-778445928.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1112"
+    },
+    "Terrain Reset": {
+        "summary": "Lets you reset old and new terrain edits with the hoe, the console, or a hotkey.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1113/1113-1619504171-1684939565.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1113"
+    },
+    "The Do or Die Solo Experience": {
+        "summary": "Introduces 25 new NPC's too Meadows (3), Black Forest (3), Swamp (3),  Mountiains (3), Plains (3), Mistlands (6), Deep North (3).<br />Introduces a traditional MMO&#92;ARPG Styled Loot system.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1114/1114-1619542391-2082791754.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1114"
+    },
+    "GoVi Texture pack": {
+        "summary": "Texture pack 4x the default resolution of the game.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1115/1115-1619547311-1694145586.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1115"
+    },
+    "Crafty Carts": {
+        "summary": "Crafting stations on wheels<br />Workbench, Forge and StoneCutter carts for building, crafting, reparing on the move",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1116/1116-1619548703-1880613652.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1116"
+    },
+    "Gizmo - Improved rotation": {
+        "summary": "An intuitive advanced building tool for rotating pieces in any direction",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1117/1117-1619549449-1380318303.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1117"
+    },
+    "Basement": {
+        "summary": "Expand into the earth with this placeable basement<br />Keep your valuables hidden, embrace the Dwarven way of life",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1118/1118-1619550101-2035748122.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1118"
+    },
+    "CustomSails": {
+        "summary": "Personalize your sails with any image on the internet for all to see",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1119/1119-1619552799-1620449461.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1119"
+    },
+    "Geiliheim - Runescape 3 map": {
+        "summary": "A world save of Geilinor built using better continents, not to actual scale but has plenty of room for improvement.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1120/1120-1619557851-1592953058.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1120"
+    },
+    "AntiCheat v2.0": {
+        "summary": "\u0414\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 \u0437\u0430\u0449\u0438\u0442\u0443 \u043d\u0430 \u0432\u0430\u0448 \u0441\u0435\u0440\u0432\u0435\u0440 valheim. \u0427\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0441\u0440\u0430\u0437\u0443 \u043a\u0438\u043a\u0430\u0435\u0442 \u0435\u0441\u043b\u0438 \u043d\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u0435 \u0435\u0441\u0442\u044c \u0442\u0435 \u043c\u043e\u0434\u044b, \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u043d\u0435\u0442 \u043d\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435. \u0420\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0441 adminlist.txt!!!",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1122/1122-1619589684-1538190738.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1122"
+    },
+    "Structure Copy": {
+        "summary": "Duplicate your built structures elsewhere in the world",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1123/1123-1619601982-1069597851.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1123"
+    },
+    "Valheim Picture Frame": {
+        "summary": "Add a new piece of furniture, a picture frame.<br />You can decorate it with your favorite pictures.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1124/1124-1619975684-1636558492.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1124"
+    },
+    "PlanBuild": {
+        "summary": "Plan the construction of objects for free. Anyone can add resources and finish the construction. Includes wearable item to see planned construction without shader effect for planning.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1125/1125-1619651033-1131664151.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1125"
+    },
+    "PlanBuild BuildShare Integration": {
+        "summary": "Adds config options so constructions created by BuildShare are created as planned constructions instead.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1126/1126-1619654537-843432983.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1126"
+    },
+    "Spooks Plains Mansion": {
+        "summary": "Plains biome mansion. Provides comfort level 19. Contructed with iron pole subframe and stone and timber built over the top. Full work area at back with level 5 workbench, level 7 forge, blast furnace, artisan table, spinning wheel, kiln and smelter.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1127/1127-1619686744-1996520089.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1127"
+    },
+    "Forgotten Biomes": {
+        "summary": "First attempt to add some variety in AshLands and DeepNorth biomes<br /><br />AshLands now is a burning biome, <br />When you come to AshLands be prepared or stay in water.<br /><br />Rocks, Veins, Obidian, Copper, Silver.. you can found a lot of things in AshLands and DeepNorth.<br />But have to be prepared",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1128/1128-1619710444-374347914.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1128"
+    },
+    "PlanBuild BuildCamera Integration": {
+        "summary": "Patch for BuildCamera to recognize the Plan Hammer as a valid tool.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1129/1129-1619720289-693637858.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1129"
+    },
+    "Race Track for Drivable Vehicle Mod": {
+        "summary": "Race Track for Drivable Vehicle Mod",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1130/1130-1619722350-1063911841.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1130"
+    },
+    "Server Rewards": {
+        "summary": "Creates a currency system for dedicated servers, whereby clients can gain currency by logging in and staying logged in and buy customizable loot boxes with earned currency.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1131/1131-1619757491-788214496.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1131"
+    },
+    "The Hermit": {
+        "summary": "Crab House",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1134/1134-1619733701-648120341.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1134"
+    },
+    "Valheim Ragnarok": {
+        "summary": "Mods configuration to create a unique, more realistic and defiant playing experience. A real challenge only for those worthy of Valhalla.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1135/1135-1619734749-1857791150.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1135"
+    },
+    "ValheimRAFT": {
+        "summary": "Allows you to build your own ship.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1136/1136-1619772401-1484770557.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1136"
+    },
+    "Jotunn the Valheim Library": {
+        "summary": "J\u00f6tunn (/\u02c8j\u0254\u02d0t\u028an/, \"giant\"), the Valheim Library was created with the goal of making the lives of mod developers easier. It enables you to create mods for Valheim using an abstracted API so you can focus on the actual content creation.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1138/1138-1619817736-1994493562.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1138"
+    },
+    "Rooty's Stone Castle": {
+        "summary": "Simple stone castle perfect for keeping you safe in the savage Plains biome.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1139/1139-1619827496-1341450796.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1139"
+    },
+    "Ziggurat": {
+        "summary": "36x41 building, a lot of space and no crafting stations. From the bleach-washed builder to the world.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1140/1140-1619999561-87803756.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1140"
+    },
+    "Modding and Performance for Valheim": {
+        "summary": "I am searching for cooperation in composing a straightforward &amp; a comprehensive document to help newcomers.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1141/1141-1619839251-1362032682.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1141"
+    },
+    "Extended Middle Earth": {
+        "summary": "Our extended rendition for Middle Earth for Valheim",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1142/1142-1619842693-1485656257.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1142"
+    },
+    "Steel Age": {
+        "summary": "Steel Age is a mod that adds some new tiers of crafting to the game to aid you in that portion between right after silver is found.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1143/1143-1619842835-2015531738.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1143"
+    },
+    "Berserker's Keep": {
+        "summary": "Its a perfectly symmetrical castle-like build.<br />The exterior features 2 Entrance Towers, 4 Side Towers, 4 Flanking Towers and a Curtain Wall with cranellations all around.<br />The interior features 4 symmetrically built rooms for 3 of your friends.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1144/1144-1620025828-1325446684.jpeg",
+        "url": "https://www.nexusmods.com/valheim/mods/1144"
+    },
+    "Valheim world save from grogg": {
+        "summary": "here is the game save file from my YouTube video I posted on https://www.youtube.com/watch?v=AJNOnQG2A2M",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1145/1145-1619882618-1587740909.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1145"
+    },
+    "Did I Hear MORE Portals": {
+        "summary": "Who .... Lives In a Pineapple In A Snowy Biome .... <br /><br />Wait .... Did I Hear MORE Portals ... Okay!",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1146/1146-1619890125-1948490720.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1146"
+    },
+    "The Berry Good Bakery": {
+        "summary": "Cozy little bakery that I wanted to share.  (Food and worker not included)",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1147/1147-1619898678-1724568896.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1147"
+    },
+    "Sail Diffuse - SAO (ALICE)": {
+        "summary": "This mod replaces Dr\u00e1car's standard candle for an image of Alice from Sword Art Online",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1148/1148-1619920351-1411201598.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1148"
+    },
+    "Custom Weapon Stats": {
+        "summary": "Lets you customize global and per-weapon attack stats like durability, force, damage, backstab, and status effects.",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1151/1151-1619983402-1735797530.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1151"
+    },
+    "ValheimExpanded": {
+        "summary": "This is an expansive mod designed to provide the player with many more tools, armors, and materials.<br />WARNING: This mod is in Alpha stages, and testing is being done constantly.<br />*ByGodAndGamecube is an alias of Mr-Rageous*",
+        "image_url": "https://staticdelivery.nexusmods.com/mods/3667/images/1154/1154-1620058085-1811898149.png",
+        "url": "https://www.nexusmods.com/valheim/mods/1154"
     }
 }

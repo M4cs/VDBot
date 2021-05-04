@@ -17,10 +17,9 @@ async def on_find_mods(ctx, *, query):
         
 @bot.command(aliases=['updateindex'])
 async def on_update_index(ctx):
-    if ctx.message.author.id in [368083908862017537, 830587634110693388, 524039295317835797]:
+    if ctx.message.author.id in [368083908862017537, 830587634110693388, 524039295317835797, 138490162949652480]:
         async with ctx.channel.typing():
             await ctx.reply(content="Updating Indexes...")
             mods.update_index()
         await ctx.reply(content="Updated Indexes!")
-
 

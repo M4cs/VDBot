@@ -31,6 +31,24 @@ class ModFinder:
     def update_index(self):
         self.is_reindexing = True
         self.mods = None
+        headers = {
+            'Accept': 'application/json',
+            'apikey': 'QWVnanJ3UW1JWk1PcUI4c2dqMTZ6b3VsazQzSW94RVRYd0Y4ck5LbEtaRjNvNHFxSHVOTks3MW0wbU42bEpYaC0tdUZId2I2SEtPUVZqTmlPWjFROHpsdz09--c414ebf1e32bd456db5ae1481a04b58d282dd859'
+        }
+
+        i = 0
+        mods = {}
+        while i < 2000:
+            res = requests.get('https://api.nexusmods.com/v1/games/valheim/mods/' + str(i) + '.json', headers=headers)
+            if res.status_code != 404:
+                obj = res.json()
+                if obj.get('name') and obj.get('summary'):
+                    print('Saving Mod: ' + obj.get('name'))
+                    mods[obj['name']] = {'summary': obj['summary'], 'image_url': obj.get('picture_url'), 'url': 'https://www.nexusmods.com/valheim/mods/' + str(i)}
+            i += 1
+
+        with open('mods.json', 'w+') as f:
+            json.dump(mods, f, indent=4)
         with open('mods.json', 'r') as f:
             self.mods = json.loads(f.read())
         self.mod_titles = self.mods.keys()
@@ -46,5 +64,6 @@ class ModFinder:
             else:
                 self.mods[mod['name']] = {'summary': mod['versions'][-1]['description'], 'url': mod['package_url']}
         self.is_reindexing = False
+        
         
     
